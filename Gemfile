@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 ruby "2.2.1"
+gem 'devise'
 gem "mini_magick"
 gem "figaro"
 gem "fog-aws"
