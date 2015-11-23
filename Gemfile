@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+ruby "2.2.1"
+gem "figaro"
+gem "fog-aws"
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'rails_12factor' , group: :production
 gem 'pg', group: :production
 gem 'rails', '4.2.5'
